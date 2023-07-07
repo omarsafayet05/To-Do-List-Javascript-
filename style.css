@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "barlow", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #192735;
+  background-color: #0f3446;
 }
 .container {
   width: 500px;
@@ -30,7 +30,7 @@ body {
   display: block;
 }
 .createTask {
-  background-color: rgba(42, 65, 88, 0.7);
+  background-color: #369090;
   padding: 20px 30px;
   border-radius: 10px;
   margin-top: 20px;
@@ -58,24 +58,24 @@ body {
   padding: 12px 12px 5px 10px;
   background-color: transparent;
   outline: none;
-  border: 1px solid #43ea87;
-  color: #43ea87;
+  border: 1px solid #ede700;
+  color: #ede700;
   border-radius: 5px;
   font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
   margin-left: 10px;
   transition: background-color 0.6s;
-  box-shadow: 0 0 5px #43ea87;
+  box-shadow: 0 0 5px #ede700;
 }
 
 .createTask button:hover {
-  background-color: #43ea87;
-  color: #192735;
+  background-color: #ede700;
+  color: #369090;
 }
 .task {
   width: 100%;
-  background-color: rgba(42, 65, 88, 0.7);
+  background-color: #369090;
   padding: 10px 15px;
   margin: 10px 0;
   border-radius: 10px;
@@ -89,7 +89,7 @@ body {
 .delete {
   background-color: transparent;
   outline: none;
-  color: #fff;
+  color: #d1114d;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
