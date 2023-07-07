@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "barlow", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #192735;
+}
+.container {
+  width: 500px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+.container h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: block;
+}
+.createTask {
+  background-color: rgba(42, 65, 88, 0.7);
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createTask input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.createTask input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.createTask button {
+  width: 45px;
+  padding: 12px 12px 5px 10px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #43ea87;
+  color: #43ea87;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.6s;
+  box-shadow: 0 0 5px #43ea87;
+}
+
+.createTask button:hover {
+  background-color: #43ea87;
+  color: #192735;
+}
+.task {
+  width: 100%;
+  background-color: rgba(42, 65, 88, 0.7);
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.delete {
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.date {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8rem;
+  position: relative;
+  top: 10px;
+}
